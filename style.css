@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0 ;
+    background: rgb(71,138,182);
+}
+
+#screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mockups {
+
+    margin: 0;
+    width: 50%;
+}
+
+.css-mb .mb-display-position {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.css-mb .mb-display {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 65.9442%;
+    background: #373435;
+    border-top-left-radius: 3.5% 5%;
+    border-top-right-radius: 3.5% 5%;
+}
+
+.css-mb .mb-display::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 1%;
+    height: 1.5164%;
+    margin-left: -0.5%;
+    border-radius: 50%;
+    background: #525252;
+}
+
+.css-mb .mb-screen-position {
+    position: absolute;
+    top: 6.5%;
+    width: 93.2%;
+    left: 3.4%;
+    height: 0;
+    margin: 0;
+    padding-bottom: 58.25%;
+}
+
+.css-mb .mb-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #373435;
+}
+
+.css-mb .mb-body {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 2.3%;
+    background: #e6e7e8;
+}
+
+.css-mb .mb-body::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 14.07440%;
+    height: 0;
+    padding-bottom: 1.4814%;
+    margin-left: -7.037%;
+    background: #a9abae;
+    border-bottom-left-radius: 7.0370% 50%;
+    border-bottom-right-radius: 7.0370% 50%;
+}
+
+.css-mb .mb-bottom-cover {
+    width: 100%;
+    height: 0;
+    padding-bottom: 0.7407%;
+    background: #a9abae;
+    border-bottom-left-radius: 12% 600%;
+    border-bottom-right-radius: 12% 600%;
+}
+
+.css-mb.with-glare .mb-display:after {
+    display: block;
+  }
+  
+  .css-mb .mb-display:after {
+    content: '';
+    display: none;
+    position: absolute;
+    right: 0.4%;
+    top: 0.60%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(55deg, rgba(0, 0, 0, 0) 60%, rgba(255, 255, 255, 0.05) 60%);
+    border-top-right-radius: 5%;
+  }
